@@ -38,10 +38,18 @@ li {
 
 .overlay2 {
     color: aliceblue;
-    font-size: 2rem;
     margin: 0;
     position: absolute;
     top: 40%;
+    left: 50%;
+    margin-left: 20vw;
+    transform: translate(-50%, -50%)
+}   
+.overlay3 {
+    color: aliceblue;
+    margin: 0;
+    position: absolute;
+    top: 100%;
     left: 50%;
     margin-left: 20vw;
     transform: translate(-50%, -50%)
