@@ -17,7 +17,6 @@ class ContainerDashboard extends Component {
       <Grid container spacing={16}>
         <Grid item s={4} >
           <MenuAdmin />
-          
         </Grid>
         <Grid item style={{ marginTop: 10 }} >
           <DashAteliers s={4} />
