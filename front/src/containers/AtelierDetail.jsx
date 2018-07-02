@@ -33,7 +33,7 @@ const AteliersDetail = (props) => {
                   <div
                     className="overlay2"
                     style={{
-                          height: '20vh', width: '60vw', fontSize: 40, marginLeft: '20vw', fontFamily: 'Montserrat'
+                          height: '20vh', width: '80vw', fontSize: 40, marginLeft: '20vw', fontFamily: 'Montserrat'
                           ,
                         }}
                   >
@@ -98,7 +98,7 @@ const AteliersDetail = (props) => {
                   <div
                     className="overlay"
                     style={{
-                          height: '20vh', width: '60vw', fontSize: 14, marginLeft: '10vw', fontFamily: 'Montserrat'
+                          height: '20vh', width: '60vw', fontSize: 15, marginLeft: '10vw', fontFamily: 'Montserrat'
                           ,
                         }}
                   >
