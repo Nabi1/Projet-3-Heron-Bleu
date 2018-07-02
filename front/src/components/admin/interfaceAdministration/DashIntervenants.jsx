@@ -292,11 +292,13 @@ class DashIntervenants extends React.Component {
                       <TableCell component="th" scope="row" padding="none">
                         {intervenant.prenom}
                       </TableCell>
+                      <TableCell>
                       <Tooltip title="Modifier">
                       <IconButton aria-label="Edit">
-                      <EditIcon />
-                    </IconButton>
-                    </Tooltip>
+                        <EditIcon />
+                      </IconButton>
+                      </Tooltip>
+                      </TableCell>
                     </TableRow>
                   );
                 })}
