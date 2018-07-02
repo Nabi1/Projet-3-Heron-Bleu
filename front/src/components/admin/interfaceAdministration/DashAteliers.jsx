@@ -22,6 +22,8 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import AddIcon from '@material-ui/icons/Add';
 import Button from '@material-ui/core/Button';
 import { lighten } from '@material-ui/core/styles/colorManipulator';
+import ButtonAddIntervenant from '../ButtonIntervenants/ButtonAddIntervenant';
+import EditIcon from '@material-ui/icons/Edit';
 
 const AdminAtelier = props => <Link to="/admin/ateliers" {...props} />;
 
@@ -288,12 +290,19 @@ class DashAteliers extends React.Component {
                       <TableCell component="th" scope="row" padding="none">
                         {atelier.nom}
                       </TableCell>
+                      <Tooltip title="Modifier">
+                      <IconButton aria-label="Edit">
+                      <EditIcon />
+                    </IconButton>
+                    </Tooltip>
                     </TableRow>
                   );
                 })}
+                
               {emptyRows > 0 && (
                 <TableRow style={{ height: 49 * emptyRows }}>
                   <TableCell colSpan={6} />
+                  
                 </TableRow>
               )}
             </TableBody>
